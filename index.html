@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+   <link href="./style.css" type="text/css" rel="stylesheet">
+</head> 
+
+
+<h2 class='titlecenter'><b>Website Design Survey</b></h2>
+
+  <div id="main-container">
+    <div class="imagecontainer">
+    <a href="https://www.canada.ca/en.html" id="link">
+      <img src="website.png" alt="website" class="image"/>
+        <div class="overlay">
+          <div class="text">Click on the image to visit the website.</div>
+        </div>
+    </a>
+    </div>
+    <br>
+    <br>
+
+  <div class="form">
+    <form id="form" name= "form" class="login-form">
+      <div>
+        <label for="text"><b>Do you frequently visit this website? Yes/No.</b></label><br><br>
+        <input type="text" id="text" name="text" placeholder="Text goes here"><br>
+      </div><br><br>
+
+      <label for="colour"><b>What colour do you notice first?</b></label><br><br>
+      <div class="radio">
+        <input type="radio" id="white" name="colour" value="white">
+        <label for="white">White</label><br>
+        <input type="radio" id="green" name="colour" value="green">
+        <label for="green">Green</label><br>
+        <input type="radio" id="other" name="colour" value="other">
+        <label for="other">Other</label><br>
+      </div>
+      <br><br>
+
+      <div>
+        <label for="dropdown"><b>What was your least favourite aspect of the design?</b></label><br><br>
+        <select name="dropdown" id="dropdown">
+          <option value="dro">Too cluttered</option>
+          <option value="saab">Bad colour scheme</option>
+          <option value="opel">Inconsistency</option>
+        </select> <br>
+      </div>
+      <br><br><br>
+
+      <div>
+        <label for="UI"><b>Out of these options, what do you think the website does well?</b></label><br><br>
+        <input type="checkbox" id="navigate" name="navigate" value="Bike">
+        <label for="navigate"> Easy to navigate</label><br>
+        <input type="checkbox" id="scheme" name="scheme" value="Car">
+        <label for="scheme"> Good colour scheme</label><br>
+        <input type="checkbox" id="layout" name="layout" value="Boat">
+        <label for="layout"> Nice layout</label><br><br>
+      </div><br>
+
+
+      <div>
+        <label for="comments"><b>Do you have any comments or suggestions for this website?</b></label><br><br>
+        <textarea name="comment" form="comments" rows="5" cols="55"></textarea><br>
+      </div>
+      <br><br><br>
+
+      <div>
+        <label for="likert"><b>On a scale of 1 to 10, how clearly do you think the website presents information?</b></label><br><br>
+        <div class="slidecontainer">
+        <p class="left">1</p>
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+         <p class="right">10</p>
+       </div>
+      </div>
+      <br><br>
+
+      <input id="submit" name="submit" type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<footer>
+  <p>Website designed by:
+   <b>Sreenija Koya</b>
+   </p>
+</footer>
+
+</body>
+</html>
